@@ -1,0 +1,408 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'inter-regular';
+  src: url(fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'montserrat-medium';
+  src: url(fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'montserrat-regular';
+  src: url(fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'poppins-bold';
+  src: url(fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'poppins-light';
+  src: url(fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: 'poppins-medium';
+  src: url(fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'poppins-regular';
+  src: url(fonts/Poppins-Regular.ttf);
+}
+
+header {
+  width: 100%;
+  height: 124px;
+  background-image: url(images/Rectangle.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+} 
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px 127px 0px 238px;
+}
+
+h1 {
+ color: rgba(74, 153, 211, 1);
+  font-family: 'poppins-bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.head-right {
+  display: flex;
+  align-items: center;
+}
+
+.img-1 {
+  background: url(images/User.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 57px;
+  height: 44px;
+}
+
+.a-1, .a-2 {
+  color: rgba(15, 0, 26, 1);
+  font-family: 'poppins-regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.img-2 {
+  background: url(images/Add.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 58px;
+  height: 44px;
+  margin-left: 84px;
+}
+
+.a-2 {
+  margin-left: 10px;
+}
+
+.a-1 {
+  margin-left: 7px;
+}
+
+.center {
+  width: 100%;
+  padding-top: 39px;
+  height: 940px;
+}
+
+.right {
+  float: right;
+}
+
+.content-1 {
+  width: 440px;
+  float: right;
+  padding-top: 12px;
+  margin-right: 99px;
+}
+
+.buttons {
+  display: flex;
+  padding: 108px 99px 0px 0px;
+}
+
+.button-1, .button-2 {
+  width: 239px;
+  height: 52px;
+  color: rgba(0, 0, 0, 1);
+  font-family: 'poppins-medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  border: none;
+} 
+
+.button-1 {
+  background: rgba(230, 230, 230, 1);
+}
+
+.button-2 {
+  background: rgba(234, 246, 255, 1);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.create {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'poppins-medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  height: 48px;
+}
+
+.started {
+  color: rgba(141, 141, 141, 1);
+  font-family: 'poppins-light';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  height: 24px;
+}
+
+.form-1 {
+  padding-top: 68px;
+}
+
+label {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'poppins-regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 440px;
+  height: 36px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+  outline: none;
+}
+
+input[type="text"], input[type="email"] {
+  margin-bottom: 30px;
+}
+
+input[type="password"] {
+  margin-bottom: 69px;
+}
+
+input[type="submit"] {
+  background: rgba(252, 11, 13, 1);
+  width: 435px;
+  height: 65px;
+  border-radius: 20px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'poppins-medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+.g-div {
+  padding-top: 20px;
+}
+
+.g-button {
+  background: none;
+  width: 435px;
+  height: 65px;
+  border-radius: 20px;
+  border: 1px solid rgba(141, 141, 141, 1);
+  color: rgba(252, 11, 13, 1);
+  font-family: 'poppins-medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  padding-left: 45px;
+}
+
+.g-img {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  margin: 21px 0px 0px 93px;
+}
+
+.already {
+  padding: 97px 0px 0px 66px;
+}
+
+.already-text {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'poppins-regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  width: 303px;
+}
+
+.sign {
+  color: rgba(62, 193, 243, 1);
+  font-family: 'poppins-medium';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+}
+
+body {
+  min-height: 1462px;
+}
+
+.background {
+  position: absolute;
+  width: 872px;
+  height: 712px;
+  background-image: url(images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 98px 0px 0px 22px;
+}
+
+footer {
+  padding-top: 99px;
+}
+
+.footer-1 {
+  width: 100%;
+  height: 404px;
+  background: rgba(234, 246, 255, 1);
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 110px 0px 70px;
+}
+
+.f-left {
+  padding-top: 60px;
+}
+
+.online {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'inter-regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  margin-left: 1px;
+}
+
+.pf {
+  margin-top: 30px;
+  color: rgba(80, 74, 65, 1);
+  font-family: 'montserrat-regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  width: 610px;
+}
+
+.f-right {
+  display: flex;
+}
+
+.fdiv-1 {
+  padding-top: 57px;
+}
+
+.f-h4-1, .f-h4-2 {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'montserrat-medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.ffdiv-1 {
+  padding-top: 29px;
+}
+
+.image-1 {
+  width: 20px;
+  height: 20px;
+  margin: 2px 21px 0px 0px;
+}
+
+.phone, .emailad, .location, .supp, .privacy {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'montserrat-regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.fffdiv-2 {
+  display: flex;
+}
+
+.image-2 {
+  width: 18px;
+  height: 18px;
+}
+
+.fffdiv-1 {
+  display: flex;
+  padding-top: 28px;
+}
+
+.image-2 {
+  margin: 2px 22px 0px 0px;
+}
+
+.fffdiv-3 {
+  display: flex;
+  padding-top: 29px;
+}
+
+.image-3 {
+  margin-right: 22px;
+  width: 18px;
+  height: 22px;
+}
+
+.dfiv {
+  padding-top: 52px;
+  margin-left: 79px;
+}
+
+.fa-1 {
+  margin-top: 43px;
+}
+
+.fa-2 {
+  margin-top: 18px;
+}
+
